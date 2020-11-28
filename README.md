@@ -9,8 +9,11 @@ Computer needed:
 - 1GHz processor and above
 - Graphics card in good condition
 - DirectX 9 and above
-- Flash Player
+- Flash Player 32
 - Microsoft .NET 4
+
+### Download
+
 
 Screenshot:
 
