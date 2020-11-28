@@ -44,7 +44,10 @@ About:
 </p>
 
 Zanzlanz website: https://https://zanzlanz.com/
+
 Play the game online: https://https://zanzlanz.com/MineBlocks
 
+
 Mojang website: https://www.mojang.com
+
 Play Minecraft: https://www.minecraft.net/en-us
