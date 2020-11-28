@@ -26,7 +26,7 @@ Welcome! Map:
 
 Wiki and help page:
 <p align="center">
-  <img alt="Wiki and help page" src="https://etron-59.webself.net/file/si1788581/Mine_Blocks_dS4wXO0CNS-fi27626878x619.png">
+  <img alt="Wiki and help page" src="https://etron-59.webself.net/file/si1788581/Mine_Blocks_INvYtIluA8-fi27626880x619.png">
 </p>
 
 On Windows XP:
