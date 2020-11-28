@@ -16,32 +16,32 @@ Screenshot:
 
 Main Screen:
 <p align="center">
-  <img alt="First image on Windows" src="https://b-20.webself.net/file/si1538420/1-fi23594953x640.jpg">
+  <img alt="Main Screen" src="https://etron-59.webself.net/file/si1788581/Mine_Blocks_KvSW5ptvZg-fi27626883x860.png">
 </p>
 
 Welcome! Map:
 <p align="center">
-  <img alt="First image on Windows" src="https://b-20.webself.net/file/si1538420/1-fi23594953x640.jpg">
+  <img alt="Welcome! Map" src="https://etron-59.webself.net/file/si1788581/Mine_Blocks_dS4wXO0CNS-fi27626878x619.png">
 </p>
 
 Wiki and help page:
 <p align="center">
-  <img alt="First image on Windows" src="https://b-20.webself.net/file/si1538420/1-fi23594953x640.jpg">
+  <img alt="Wiki and help page" src="https://etron-59.webself.net/file/si1788581/Mine_Blocks_dS4wXO0CNS-fi27626878x619.png">
 </p>
 
 On Windows XP:
 <p align="center">
-  <img alt="First image on Windows" src="https://b-20.webself.net/file/si1538420/1-fi23594953x640.jpg">
+  <img alt="On Windows XP" src="https://etron-59.webself.net/file/si1788581/Pct-fi27626899x860.bmp">
 </p>
 
 Mine Blocks 2:
 <p align="center">
-  <img alt="First image on Windows" src="https://b-20.webself.net/file/si1538420/1-fi23594953x640.jpg">
+  <img alt="Mine Blocks 2" src="https://etron-59.webself.net/file/si1788581/Mine_Blocks_mzfQdTAiCq-fi27626886x619.png">
 </p>
 
 About:
 <p align="center">
-  <img alt="First image on Windows" src="https://b-20.webself.net/file/si1538420/1-fi23594953x640.jpg">
+  <img alt="About" src="https://etron-59.webself.net/file/si1788581/Mine_Blocks_RTxBLokD5j-fi27626888x619.png">
 </p>
 
 Zanzlanz website: https://https://zanzlanz.com/
