@@ -8,8 +8,9 @@ Computer needed:
 - 512 MB of RAM and above
 - 1GHz processor and above
 - Graphics card in good condition
-- DirectX 9
+- DirectX 9 and above
 - Flash Player
+- Microsoft .NET 4
 
 Screenshot:
 
