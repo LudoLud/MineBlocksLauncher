@@ -13,9 +13,20 @@ Computer needed:
 - Microsoft .NET 4
 
 ### Download
-#### [Everything](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
-[Everything](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
-[Everything](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
+#### [Download the latest version](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
+
+
+##### Windows XP to Windows 7 Downloads:
+
+[Download Microsoft .NET 4](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
+
+[Download Adobe Flash Player 32 (IE)](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
+
+[Download Adobe Flash Player 32 (Chromium)](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
+
+[Download Adobe Flash Player 32 (Firefox)](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
+
+(You must have all the software presented to have a good functioning on Windows XP to Windows 7.)
 
 ### Screenshot:
 
