@@ -10,7 +10,7 @@ Computer needed:
 - Graphics card in good condition
 - DirectX 9 and above
 - Flash Player 32
-- Microsoft .NET 4
+- Microsoft .NET Framework 4
 
 ### Download
 #### [Download the latest version](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
@@ -18,13 +18,13 @@ Computer needed:
 
 ##### Windows XP to Windows 7 Downloads:
 
-[Download Microsoft .NET 4](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
+[Download Microsoft .NET Gramework 4](https://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe)
 
-[Download Adobe Flash Player 32 (IE)](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
+[Download Adobe Flash Player 32 (Opera & Chromium)](https://github.com/LudoLud/MineBlocksLauncher/raw/main/Download/flashplayer32pp_xa_install.exe)
 
-[Download Adobe Flash Player 32 (Chromium)](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
+[Download Adobe Flash Player 32 (Internet Explorer)](https://github.com/LudoLud/MineBlocksLauncher/raw/main/Download/flashplayer32ax_xa_install.exe)
 
-[Download Adobe Flash Player 32 (Firefox)](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
+[Download Adobe Flash Player 32 (Firefox)](https://github.com/LudoLud/MineBlocksLauncher/raw/main/Download/flashplayer32_xa_install.exe)
 
 (You must have all the software presented to have a good functioning on Windows XP to Windows 7.)
 
