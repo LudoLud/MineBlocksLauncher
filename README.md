@@ -1,2 +1,2 @@
 # Mine Blocks Launcher
-A Mine Blocks Launcher for Windows XP to Windows 10. You can also play without internet.
+This software is a launcher for Mine Blocks which does not require internet.
