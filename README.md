@@ -13,8 +13,8 @@ Computer needed:
 - Microsoft .NET Framework 4
 
 ### Download
-#### [Download the latest version](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
-##### [Download the latest portable version](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
+#### [Download the latest version](https://github.com/LudoLud/MineBlocksLauncher/releases/download/version1dot0/MineBlocksLauncher_Setup.exe)
+##### [Download the latest portable version](https://github.com/LudoLud/MineBlocksLauncher/releases/download/version1dot0/MineBlocks.zip)
 
 The password is: MineBlocks-Launcher
 
