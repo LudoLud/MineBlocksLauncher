@@ -1,0 +1,24 @@
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\Interop.ShockwaveFlashObjects.dll
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\Mine Blocks.vbproj.ResolveComReference.cache
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\Mine_Blocks.Main.resources
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\Mine_Blocks.Resources.resources
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\Mine_Blocks.Wiki.resources
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\Mine Blocks.vbproj.GenerateResource.cache
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\Mine Blocks.vbproj.CoreCompileInputs.cache
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\bin\Release\Mine Blocks.exe.config
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\bin\Release\Mine Blocks.exe.manifest
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\bin\Release\Mine Blocks.application
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\bin\Release\Mine Blocks.exe
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\bin\Release\Mine Blocks.pdb
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\bin\Release\Mine Blocks.xml
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\bin\Release\Interop.ShockwaveFlashObjects.dll
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\bin\Release\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\Mine Blocks.vbprojAssemblyReference.cache
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\Mine_Blocks.About.resources
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\Mine Blocks.TrustInfo.xml
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\Mine Blocks.exe.manifest
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\Mine Blocks.application
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\Mine Blocks.exe
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\Mine Blocks.xml
+C:\Users\ludog\source\repos\Mine Blocks\Mine Blocks\obj\Release\Mine Blocks.pdb
