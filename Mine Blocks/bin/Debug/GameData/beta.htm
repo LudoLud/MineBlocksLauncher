@@ -1,0 +1,502 @@
+
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Mine Blocks - The 2D Minecraft Fan Game by Zanzlanz</title>
+	
+	<meta name="description" content="Mine Blocks Beta is the HTML5 versions of the free 2D Minecraft browser fan-game by Zanzlanz!">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"> 
+	<link rel="stylesheet" href='https://mineblocks.com/assets/_BETA_STYLE.css?#1605158186' type="text/css">
+	<meta name="viewport" content="width=600">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <link rel="shortcut icon" href="https://mineblocks.com/favicon.ico" />
+    <meta name="twitter:site" content="@mine_blocks">
+    <meta name="theme-color" content="#237bbb">
+    
+    <link rel="canonical" href="https://mineblocks.com/1" />
+    <meta property="og:title" content="Mine Blocks Beta - The 2D Minecraft Fan Game">
+    <meta property="og:description" content="Mine Blocks Beta is the HTML5 versions of the free 2D Minecraft browser fan-game by Zanzlanz!">
+    <meta property="og:image" content="https://i.imgur.com/6vngoHy.png" />
+    <meta property="og:url" content="https://mineblocks.com/beta">
+    
+    <meta name="twitter:card" content="summary">
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"WebApplication","name":"Mine Blocks Beta","image":"https://i.imgur.com/6vngoHy.png","applicationCategory":"Game","applicationSubCategory":"Adventure Game","operatingSystem":"Windows, Linux, OSX","description":"Mine Blocks Beta is the HTML5 versions of the free 2D Minecraft browser fan-game by Zanzlanz!","screenshot":{"@type":"ImageObject","thumbnailUrl":"https://i.imgur.com/C13ZlrB.png"},"creator":{"@type":"Person","name":"Zanzlanz","url":"https://zanzlanz.com/about"}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":"https://zanzlanz.com","name":"Zanzlanz.com"},{"@type":"ListItem","position":2,"item":"https://zanzlanz.com/games","name":"Games"},{"@type":"ListItem","position":3,"item":"https://mineblocks.com/beta","name":"Mine Blocks Beta"}]}]</script>    <script src="https://unpkg.com/css-vars-ponyfill@2/dist/css-vars-ponyfill.min.js"></script><script>cssVars();</script><!-- remove when ie11n't -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+	ga('create', 'UA-25460606-3', 'auto');
+    ga('send', 'pageview');
+    </script>
+</head>
+<body>
+
+
+<div id='header-wrapper'>
+    <div id='header'>
+        <div id='menu'>
+            <div class='item'><a href='https://mineblocks.com/1'><img src='assets/header-icons/header-icon-mb.png'/><span class='inline-mobile-hide'>Mine Blocks 1</span><span class='inline-mobile-show'>MB1</span></a></div
+            ><div class='item'><a href='https://mineblocks.com/beta'><img src='assets/header-icons/header-icon-mbb.png'/><u><span class='inline-mobile-hide'>Mine Blocks Beta</span><span class='inline-mobile-show'>MB Beta</span></u></a></div
+            ><div class='item'><a href='https://mineblocks.com/2'><img src='assets/header-icons/header-icon-mb2.png'/><span class='inline-mobile-hide'>Mine Blocks 2</span><span class='inline-mobile-show'>MB 2</span></a></div
+            ><div class='item'><a href='https://zanzlanz.com'><img src='assets/header-icons/header-icon-z.png'/><span class='inline-mobile-hide'>More Zanzlanz</span><span class='inline-mobile-show'>More</span></a></div>
+        </div>
+    </div>
+</div>
+
+
+<div id='page-wrapper'>
+
+
+<div class='content-box'>
+    <div class='content-box-content' style='position:relative'>
+
+        <div id='gameWrapperWrapper' style='width:100%;text-align:center'>
+            <div style='display:inline-block;width:min-content'>
+                <div id='gameWrapper' style='width:552px;height:414px;position:relative;max-width:100%;display:inline-block;vertical-align:top;background-color:#000000'>
+                <iframe id='html5Game' src="https://mineblocks.com/1/embed/" style="width:100%;height:100%;border:0"></iframe>
+                </div>
+                
+                <div style='width:552px;display:inline-block;text-align:center;padding-top:15px;'>
+                    <div style='float:left;font-size:16px;text-align:left'>
+                        <span style='font-size:32px;line-height:1em'>Mine Blocks Beta</span> <span style='color:#999999'>v1.2.0.2</span>
+                        <br/><span style='color:#AAFFAA;'>Early Access</span>
+                    </div>
+                    <div style='float:right;'>
+                        <div style='text-align:center;display:inline-block;margin-left:10px' id="enlargeShrink" class='svg-icon'>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 10 10" width="40" height="40">
+                            <path fill="#999999" stroke="none" d="M 2 0.95 L 2 0 0 0 0 1.75 0.05 1.85 0 1.85 0 10.05 8.8 10.05 8.8 10 10 10 10 8 9.05 8 9.05 9.05 7 9.05 7 5.2 6 6.2 6 9.05 1 9.05 1 4 3.85 4 4.85 3 1 3 1 0.95 2 0.95 M 6 0.95 L 6 0 4 0 4 0.95 6 0.95 M 8 0 L 8 1 9.05 1 9.05 2 10 2 10 0 8 0 M 9.05 4 L 9.05 6 10 6 10 4 9.05 4 M 5.2 2 L 6.2 3 3 6.15 2.05 5.2 2.05 7.95 4.85 7.95 3.85 6.95 7 3.75 8 4.75 8 2 5.2 2 Z"/>
+                            </svg>
+                            <br/><span id='enlargeShrinkText' style='font-size:12px'>Enlarge</span>
+                        </div><div style='text-align:center;display:inline-block;margin-left:10px;' class="svg-icon fullscreen">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 10 10" width="40" height="40">
+                            <path fill="#999999" stroke="none" d="M 10 4.05 L 10 0 5.95 0 7.5 1.55 5 4.05 2.5 1.55 4.05 0 0 0 0 4.05 1.55 2.5 4.05 5 1.55 7.5 0 5.95 0 10 4.05 10 2.5 8.45 5 5.95 7.5 8.45 5.95 10 10 10 10 5.95 8.45 7.5 5.95 5 8.45 2.5 10 4.05 Z"/>
+                            </svg>
+                            <br/><span id='fullscreenText' style='font-size:12px'>Fullscreen</span>
+                        </div>
+                    </div>
+                    <div style='clear:both'></div>
+                </div>
+            </div><div id='chatWindow'>
+                <div id='mbChat' style='position:relative'>
+                    <widgetbot
+                        server="157381356173656064"
+                        channel="673519516113960974"
+                        width="100%"
+                        height="370"
+                        shard="https://e.widgetbot.io"
+                        ></widgetbot>
+                    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+                    <div style='padding-top:13px;'><em>This chat is readonly. Join the chat <a href='https://mineblocks.com/discord'>here</a>.</em></div>
+                </div>
+            </div>
+        </div>
+        <div id='fullscreenBanner' style='display:none;position:fixed;top:0;left:0;height:56px;z-index:4'>
+            <div class='button fullscreen' style='width:120px;padding:5px;margin:6px 0 0 6px'>Exit Fullscreen</div>
+        </div>
+        
+        <div style='display:inline-block;width:100%;text-align:center;margin-bottom:50px;'>
+            <div class="button" id="openChat" style='width:130px;padding:5px;margin:20px 5px 10px 5px'>Open Chat</div
+            ><div class="button" id="embedLink" style='width:90px;padding:5px;margin:20px 5px;background:none;text-decoration:underline'>Embed</div>
+            
+            <div id='embedCode' class='embed-code' style='display:none'>
+                It's a little early to embed Mine Blocks Beta, but the links will remain the same.<br/> <br/>
+                Please use the direct embed code shown below for your website:<br/>
+                <div class='code-block'>
+                    &lt;iframe src=&quot;https://mineblocks.com/1/embed&quot; style=&quot;width:552px;height:414px&quot;&gt;&lt;/iframe&gt;                </div>
+                <br/>And if the space is flexible, consider using percentage dimensions:<br/>
+                <div class='code-block'>
+                    &lt;iframe src=&quot;https://mineblocks.com/1/embed&quot; style=&quot;width:100%;height:100%&quot;&gt;&lt;/iframe&gt;                </div>
+            </div>
+            <script>$("#embedLink").click(function() {$("#embedCode").slideToggle();});</script>
+        </div>
+        
+        <script>
+        $("#chatWindow").hide();
+        $("#openChat").click(function() {
+            if($("#openChat").text() == "Open Chat") {
+                shrinkGame(
+                    function() {
+                        $("#openChat").text("Close Chat");
+                        $("#enlargeShrink").addClass("disabled");
+                        $("#chatWindow").fadeIn(1000);
+                    }
+                );
+            } else {
+                $("#openChat").text("Open Chat");
+                $("#enlargeShrink").removeClass("disabled");
+                $("#chatWindow").fadeOut(500);
+            }
+        });
+        </script>
+        
+        <script>
+        var gameWrapper = $('#gameWrapper');
+        
+        var baseWidth = 552;
+        var targetWidth = 552;
+        var ratio = 552/414;
+        var enlarged = false;
+        var fullscreen = false;
+        var maxEnlargeSize = 4;
+        
+        $("#enlargeShrink").click(function() {
+            if($(this).hasClass("disabled")) return;
+            if(!enlarged) {
+                growGame();
+            } else shrinkGame();
+        });
+        $(".fullscreen").click(function() {
+            if($('#gameWrapperWrapper').is(":hidden")) return;
+            
+            $('#html5Game')[0].requestFullscreen();
+            
+            return;
+            
+            fullscreen = !fullscreen;
+            if(fullscreen) {
+                gameWrapper.css({
+                    position:'fixed',
+                    left:0,
+                    top:'56px',
+                    width:'100%',
+                    height:'calc(100% - 56px)',
+                    'z-index':3
+                });
+                $("#fullscreenBanner").show();
+                $('body').css('overflow', 'hidden');
+            } else {
+                gameWrapper.css({
+                    position:'relative',
+                    left:'auto',
+                    top:'auto',
+                    'z-index':'auto'
+                });
+                checkRatio();
+                $("#fullscreenBanner").hide();
+                $('body').css('overflow', 'auto');
+            }
+        });
+        function growGame(callback) {
+            if(enlarged) {
+                if(callback) callback();
+                return;
+            }
+            enlarged = true;
+            $("#enlargeShrinkText").text("Shrink");
+            gameWrapper.stop().animate({
+                width: baseWidth*maxEnlargeSize,
+                height: baseWidth*maxEnlargeSize/ratio
+            }, {duration:200, progress:function(){targetWidth=gameWrapper.width();checkRatio()}, complete:function(){targetWidth=baseWidth*maxEnlargeSize;if(callback)callback();}});
+        }
+        function shrinkGame(callback) {
+            if(!enlarged) {
+                if(callback) callback();
+                return;
+            }
+            enlarged = false;
+            $("#enlargeShrinkText").text("Enlarge");
+            gameWrapper.stop().animate({
+                width: baseWidth,
+                height: baseWidth/ratio
+            }, {duration:200, progress:function(){targetWidth=gameWrapper.width();checkRatio()}, complete:function(){targetWidth=baseWidth;if(callback)callback();}});
+        }
+        
+        function checkRatio() {
+            if(fullscreen) {
+                return;
+            }
+            
+            if (gameWrapper.width()/gameWrapper.height() != ratio) {
+                gameWrapper.height(gameWrapper.width()/ratio);
+            }
+            if (gameWrapper.height() != Math.min(Math.min($("#gameWrapperWrapper").width(), targetWidth)/ratio, $(window).height()*.95)) {
+                gameWrapper.height(Math.min(Math.min($("#gameWrapperWrapper").width(), targetWidth)/ratio, $(window).height()*.95));
+                gameWrapper.width(gameWrapper.height()*ratio);
+            }
+        }
+        
+        setInterval(function() {
+            checkRatio();
+        }, 500);
+        </script>
+
+        <div class='content-box full-width-da' style='margin:0px'>
+            <div class='content-box-content'>
+                <ins class="adsbygoogle" data-ad-test="on" data-ad-client="ca-pub-7399931019521802" data-ad-slot="6889388513" data-ad-format="auto"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+        </div>
+        
+        <div class='q-and-a-header' id='updates'>
+            ⸻ &nbsp; Patch Notes &nbsp; ⸻
+        </div>
+        <div class="q-and-a">
+            <div class='question' id='1.2.0.3'>
+                <span style='color:#656565'>1.2.0.3 - <span style='font-size:12px'>Dec. 4, 2020</span></span>
+            </div>
+            <div class='answer'>
+                <span style='color:#656565'>- ???</span>
+            </div>
+            <div class='question' id='1.2.0.2'>
+                1.2.0.2 <span style='color:#999999;font-size:12px'>- Nov. 27, 2020</span>
+            </div>
+            <div class='answer'>
+                - Blue screen on world load fixed
+                <br/>- Hardware acceleration is no longer required to play
+                <br/>- Piston, rail, fence, and gate behaviors
+                <br/>- Basic hotbar functionality
+                <br/>- General item usage and interaction
+                <br/>- More preset items were added to inventory when creating world
+                <br/>- (Try middle-clicking to place different items!)
+                <br/>- Mining unused furnaces no longer crashes
+                <br/>- Returning from nether no longer respawns at bedrock
+                <br/>- Particles no longer appear above player
+                <br/>- Acid no longer has fire spread behavior
+                <br/>- Version number font size increased
+                <br/>- The same world can be loaded twice in a row
+                <br/>- Placeholder warning text is a more legible color
+            </div>
+            <div class='question' id='1.2.0.1'>
+                1.2.0.1 <span style='color:#999999;font-size:12px'>- Nov. 20, 2020</span>
+            </div>
+            <div class='answer'>
+                - <del>Blue screen on world load fixed</del>
+                <br/>- Liquid and fire spread physics
+                <br/>- Redstone dust & torch, door, button, lever, and pressure plate behaviors
+                <br/>- Leaves, mycelium, frosted ice, saplings, and farmland behaviors
+                <br/>- Mining sound volume has proper panning
+                <br/>- Jump timer speed corrected
+            </div>
+            <div class='question' id='1.2.0.0'>
+                1.2.0.0 <span style='color:#999999;font-size:12px'>- Nov. 13, 2020</span>
+            </div>
+            <div class='answer'>
+                - Initial beta!
+            </div>
+        </div>
+
+        <div class='content-box full-width-da' style='margin:0px'>
+            <div class='content-box-content'>
+                <ins class="adsbygoogle" data-ad-test="on" data-ad-client="ca-pub-7399931019521802" data-ad-slot="6889388513" data-ad-format="auto"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+        </div>
+        
+        <div class='q-and-a-header' id='FAQ'>
+            ⸻ &nbsp; Questions and Answers &nbsp; ⸻
+        </div>
+        <div class="q-and-a">
+            <div class='question' id='q1'>
+                <span class='number'>1.</span>
+                What is Mine Blocks Beta?
+            </div>
+            <div class='answer'>
+                Mine Blocks Beta is a <b>complete recreation of Mine Blocks 1</b> written in Haxe.
+                <br/> <br/>(Mine Blocks is a 2D fan-game of Minecraft.)
+            </div>
+            
+            <div class='question' id='q2'>
+                <span class='number'>2.</span>
+                Why recreate Mine Blocks?
+            </div>
+            <div class='answer'>
+                Mine Blocks was originally made with <b>Flash</b> in 2011. After this year, <b>all Flash games will no longer work</b>! This means Mine Blocks will be gone.
+                <br/> <br/>In order for Mine Blocks to continue to work in browsers, <b>it needs to be converted to an HTML5 game</b>. That's why Mine Blocks is being recreated in Haxe.
+            </div>
+            
+            <div class='question' id='q3'>
+                <span class='number'>3.</span>
+                What is "Haxe"?
+            </div>
+            <div class='answer'>
+                <a href='https://haxe.org' class='pretty'>Haxe</a> is a <b>programming language</b> made by Nicolas Cannasse. Haxe was inspired by Flash, and it can make browser, desktop, and mobile games. So, it is the ideal replacement for Flash.
+            </div>
+            
+            <div class='question' id='q4'>
+                <span class='number'>4.</span>
+                How complete is Mine Blocks Beta?
+            </div>
+            <div class='answer'>
+                For the most part you can create & explore worlds, break blocks, and place stone -- nothing crazy yet!
+                <br/> <br/>That said, it's <b>over half way ported</b>, according to the full list of tasks. <a href='https://mineblocks.com/#b' class='pretty'>Visit the homepage</a> to see an up-to-date progress bar.
+                <br/> <br/>The most <b>important features are being prioritized</b> first, in favor of "getting the game playable" as soon as possible.
+            </div>
+            
+            <div class='question' id='q5'>
+                <span class='number'>5.</span>
+                Will my old worlds work in Mine Blocks Beta? How?
+            </div>
+            <div class='answer'>
+                First, you NEED to save your worlds to file from Mine Blocks Classic! There's a new <b>backup feature</b> in 1.30 that makes it only one click to backup everything.
+                <br/>Do that like right now, for real. If you wait, you risk your worlds being lost to the end of Flash.
+                <br/> <br/>But yes, <b>you will be able to import any Mine Blocks World (.MBW) or Mine Blocks Worlds Backup (.MBWB) file</b> into Mine Blocks Beta.
+            </div>
+            
+            <div class='question' id='q6'>
+                <span class='number'>6.</span>
+                How many people are working on this?
+            </div>
+            <div class='answer'>
+                Just me, <a href='https://zanzlanz.com/about'>Zanzlanz</a>. Hi!
+            </div>
+            
+            <div class='question' id='q7'>
+                <span class='number'>7.</span>
+                When will Mine Blocks Beta be released?
+            </div>
+            <div class='answer'>
+                There is no release date, as it will be done <b>as soon as possible</b>.
+            </div>
+            
+            <div class='question' id='q8'>
+                <span class='number'>8.</span>
+                How can I download Mine Blocks Beta?
+            </div>
+            <div class='answer'>
+                For the time being, early access is only playable from this page.
+                <br/> <br/>Later, downloads will be available on the <a href='https://mineblocks.com/1/download' class='pretty'>Mine Blocks 1 download page</a>.
+            </div>
+            
+            <div class='question' id='q9'>
+                <span class='number'>9.</span>
+                How will I see progress or know when Mine Blocks Beta is done?
+            </div>
+            <div class='answer'>
+                Whatever way works best for you! Here are some options:
+                <ul>
+                    <li><a href='https://mineblocks.com/discord' class='pretty'>Discord server</a> - follow the announcements channel</li>
+                    <li><a href='https://twitter.com/mine_blocks' class='pretty'>Twitter</a> or <a href='https://facebook.com/mineblocks' class='pretty'>Facebook</a> pages - turn on post notifications</li>
+                    <li><a href='https://youtube.com/zanzlanz' class='pretty'>YouTube</a> - use the bell to turn on notifications</li>
+                    <li><a href='https://mineblocks.com/1/newsletter' class='pretty'>Newsletter</a> - the main tier is sufficient</li>
+                    <li><a href='https://zanzlanz.com/feed/posts.xml' class='pretty'>Zanzlanz's RSS</a> - subscribe if you use an RSS reader</li>
+                    <li><a href='https://mineblocks.com/beta' class='pretty'>mineblocks.com/beta</a> - bookmark and check every Friday or something lol</li>
+                </ul>
+            </div>
+            
+            <div class='question' id='q10'>
+                <span class='number'>10.</span>
+                What is Mine Blocks Classic?
+            </div>
+            <div class='answer'>
+                Mine Blocks Classic is what we are calling the <b>original Flash version of the game</b>.
+            </div>
+            
+            <div class='question' id='q11'>
+                <span class='number'>11.</span>
+                Will Mine Blocks Beta have all the features of Mine Blocks Classic?
+            </div>
+            <div class='answer'>
+                <b>Yes</b>, this is the end goal, to fully recreate it as similar to the original as possible.
+            </div>
+            
+            <div class='question' id='q12'>
+                <span class='number'>12.</span>
+                Will Mine Blocks Beta have any NEW features that Mine Blocks Classic didn't have?
+            </div>
+            <div class='answer'>
+                <b>Yes!</b> This is something we'll find out together as it is developed.
+                <br/> <br/>Texture packs, for example, are finally going to be possible in Mine Blocks Beta!
+            </div>
+            
+            <div class='question' id='q13'>
+                <span class='number'>13.</span>
+                How can I play Mine Blocks Classic after Flash ends?
+            </div>
+            <div class='answer'>
+                It is likely that the <a href='https://mineblocks.com/1/download' class='pretty'>.EXE download</a> will still work.
+                <br/> <br/>You can probably also play with an <a href='https://archive.org/details/MacromediaFlashProjectors.7z' class='pretty'>old version of Flash Player</a>, with <a href='https://bluemaxima.org/flashpoint/' class='pretty'>BlueMaxima's Flashpoint</a>, or with <a href='https://ruffle.rs' class='pretty'>Ruffle</a> (once it is far enough along).
+            </div>
+            
+            <div class='question' id='q14'>
+                <span class='number'>14.</span>
+                Can I suggest additions and changes?
+            </div>
+            <div class='answer'>
+                <b>Feedback is always welcome!</b> Obviously, unimplemented/unfinished features need not be reported, but bug reports and suggestions are a healthy part of a balanced diet and/or game development process.
+            </div>
+            
+            <div class='question' id='q15'>
+                <span class='number'>15.</span>
+                Will Mine Blocks Beta support multiplayer?
+            </div>
+            <div class='answer'>
+                <b>No</b></b>. Mine Blocks Beta will still have most of the same infrastructure flaws that Mine Blocks Classic has, because it is being ported as quickly as possible. So, making it support multiplayer would take far too long upfront.
+                <br/> <br/>In the long run, we'll have to see if things get better.
+            </div>
+            
+            <div class='question' id='q16'>
+                <span class='number'>16.</span>
+                Will Mine Blocks Classic still be updated?
+            </div>
+            <div class='answer'>
+                <b>No</b>, 1.30 is the last major version of Mine Blocks Classic.
+                <br/>It was released November 13, 2020.
+            </div>
+            
+            <div class='question' id='q17'>
+                <span class='number'>17.</span>
+                What will be the version number of Mine Blocks Beta?
+            </div>
+            <div class='answer'>
+                Mine Blocks Beta versions will always start with <b>1.2</b>. The first version will be <b>1.2.0.0</b>, for example. The <b>1</b> refers to "Mine Blocks 1", and the <b>2</b> means the second edition of the game (beta).
+                <br/> <br/>If it helps you make sense of this, you can imagine all Mine Blocks Classic versions have a hidden 1 in front too; the last update could be thought as <b>1.1.30</b>, instead of just <b>1.30</b>.
+                <br/> <br/>This also helps it seem different than "Mine Blocks 2", which is a totally different game!
+            </div>
+            
+            <div class='question' id='q18'>
+                <span class='number'>18.</span>
+                Will Mine Blocks Beta be free?
+            </div>
+            <div class='answer'>
+                <b>Of course!</b> That's the point of it, right? :D
+            </div>
+            
+            <div class='question' id='q19'>
+                <span class='number'>19.</span>
+                How will Mine Blocks Beta be funded?
+            </div>
+            <div class='answer'>
+                I have a job, so I only make Mine Blocks in my free-time and weekends.
+                <br/> <br/>Other than that, the <b>ads</b> on the page help pay to keep things running.
+                <br/>You can <a href='https://zanzlanz.com/supporters' class='pretty'>donate</a> if you like what I'm doing :)
+            </div>
+            
+            <div class='question' id='q20'>
+                <span class='number'>20.</span>
+                Will there be social media specifically for Mine Blocks Beta?
+            </div>
+            <div class='answer'>
+                Mine Blocks Beta is still considered Mine Blocks 1, and will continue to use the <b>same social media accounts</b>.
+            </div>
+            
+            <div class='question' id='q21'>
+                <span class='number'>21.</span>
+                Any other questions?
+            </div>
+            <div class='answer'>
+                Ask on <a href='https://mineblocks.com/discord' class='pretty'>Discord</a>, the <a href='https://twitter.com/mine_blocks' class='pretty'>Twitter</a>, or my <a href='https://zanzlanz.com/about' class='pretty'>e-mail</a>.
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+<div class='content-box full-width-da' style='margin-top:25px;'>
+    <div class='content-box-content'>
+        <!-- Zanzlanz Responsive -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7399931019521802" data-ad-slot="6889388513" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+</div>
+
+
+</div>
+
+</body>
+</html>
