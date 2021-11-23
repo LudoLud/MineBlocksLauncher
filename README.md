@@ -63,9 +63,9 @@ About:
   <img alt="About" src="https://etron-59.webself.net/file/si1788581/Mine_Blocks_RTxBLokD5j-fi27626888x619.png">
 </p>
 
-Zanzlanz website: https://https://zanzlanz.com/
+Zanzlanz website: https://zanzlanz.com/
 
-Play the game online: https://https://zanzlanz.com/MineBlocks
+Play the game online: https://zanzlanz.com/MineBlocks
 
 
 Mojang website: https://www.mojang.com
